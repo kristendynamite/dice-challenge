@@ -16,6 +16,8 @@ body {
 .pip::before {
   content: "♥" ;
   color: skyblue;
+  font-size: 25px;
+  padding: 2px;
 }
 
 .pip {
@@ -86,7 +88,6 @@ body {
 .fifth-face .column:nth-child(2) {
   align-self: center;
 }
-
 
 /*sixth dice*/
 .sixth-face {
