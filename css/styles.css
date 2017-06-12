@@ -60,3 +60,14 @@ body {
 .third-face :nth-child(3) {
   align-self: flex-end;
 }
+
+/*fourth dice*/
+.fourth-face {
+  justify-content: space-between;
+}
+
+.fourth-face .column{
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+}
