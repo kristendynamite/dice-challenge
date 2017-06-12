@@ -43,3 +43,20 @@ body {
 .second-face :nth-child(2) {
   align-self: flex-end;
 }
+
+/*third dice*/
+.third-face {
+  justify-content: space-between;
+}
+
+.third-face :nth-child(1) {
+  align-self: flex-start;
+}
+
+.third-face :nth-child(2) {
+  align-self: center;
+}
+
+.third-face :nth-child(3) {
+  align-self: flex-end;
+}
