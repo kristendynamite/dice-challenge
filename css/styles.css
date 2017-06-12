@@ -71,3 +71,30 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
+/*fifth dice*/
+.fifth-face {
+  justify-content: space-between;
+}
+
+.fifth-face .column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.fifth-face .column:nth-child(2) {
+  align-self: center;
+}
+
+
+/*sixth dice*/
+.sixth-face {
+  justify-content: space-between;
+}
+
+.sixth-face .column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
