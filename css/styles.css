@@ -30,3 +30,16 @@ body {
 .first-face :nth-child(1) {
   align-self: center;
 }
+
+/*second dice*/
+.second-face {
+  justify-content: space-between;
+}
+
+.second-face :nth-child(1) {
+  align-self: flex-start;
+}
+
+.second-face :nth-child(2) {
+  align-self: flex-end;
+}
